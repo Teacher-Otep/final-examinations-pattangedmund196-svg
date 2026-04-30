@@ -89,4 +89,109 @@ body{
 .toast-hidden {
     display: none;
     opacity: 0;
+}.content {
+    display: none;
+}#logo {
+    cursor: pointer;
+}.navbar{
+    display: flex;
+    justify-content: center;   /* gitna horizontally */
+    align-items: center;
+    gap: 20px;                 /* space between logo & buttons */
+    width: 80%;
+    margin: 20px auto;         /* auto = center */
+    background-color: #6fa8dc;
+    padding: 10px;
+    border-radius: 20px;
+}#logo{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}.homecontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+    text-align: center;
+    height: 70vh;              /* para gitna sa screen */
+}#create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* center horizontally */
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.label{
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.field{
+    width: 300px;
+    padding: 5px;
+}
+
+#btncontainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}.contenttitle{
+    text-align: center;
+}.content{
+    display: none;
+}#home{
+    display: block;
+}/* CENTER WHOLE UPDATE SECTION */
+/* UPDATE SECTION */
+#update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* TITLES */
+#update h1,
+#update h2 {
+    text-align: center;
+}
+
+/* TABLE */
+#updateTable {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+#updateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+/* LABEL */
+#updateForm label {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* INPUT */
+#updateForm input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* BUTTON */
+#updateForm button {
+    margin-top: 10px;
 }
